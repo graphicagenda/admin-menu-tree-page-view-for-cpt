@@ -1,0 +1,8 @@
+INSTRUCTIONS
+
+Do not immediately activate.
+
+Load index.php into your text editor that has support for "find & replace all" 
+
+Find *cpt* / and replace with the name/id of your custom post type.
+There are 21 occurances

@@ -1,0 +1,255 @@
+
+#adminmenu li ul.admin-menu-tree-page-tree ul li a {
+	background-image: none !important;
+	border-left-width: 1px;
+	border-left-style: solid;
+	xbackground: transparent url(page-small.gif) no-repeat 7px 2px !important;
+	xbackground: transparent url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/ui-darkness/images/ui-icons_cccccc_256x240.png) no-repeat -16px -126px;
+	padding-left: 19px;
+}
+#adminmenu li.wp-has-current-submenu ul.admin-menu-tree-page-tree {
+	border-bottom-width: 0;
+}
+li.toplevel_page_admin-menu-tree-page-tree_main .wp-first-item {
+	display: none;
+}
+
+li.toplevel_page_admin-menu-tree-page-tree_main .wp-submenu a {
+	background-image: none;
+}
+
+
+#adminmenu li.wp-has-current-submenu ul.admin-menu-tree-page-tree {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	padding-top: 5px;
+}
+
+
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li {
+	position: relative;
+}
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li a {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+
+	background: transparent url(page-small.gif) no-repeat 7px 2px !important;
+
+	padding-left: 19px;
+	padding-right: 8px;
+}
+
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li a:hover {
+	background-color: #eaf2fa !important;
+}
+
+#adminmenu li.wp-has-current-submenu ul.admin-menu-tree-page-tree li a {
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+#adminmenu li ul.admin-menu-tree-page-tree li a {
+	font-size: 10px;
+	line-height: 13px;
+	padding-top: 2px;
+}
+
+#adminmenu li.wp-has-current-submenu ul li a {
+}
+
+#adminmenu li ul.admin-menu-tree-page-tree a .admin-menu-tree-page-view-edit {
+	display: none;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/ui-darkness/images/ui-icons_cccccc_256x240.png) no-repeat -16px -126px;
+	padding: 2px;
+}
+
+#adminmenu li ul.admin-menu-tree-page-tree a:hover .admin-menu-tree-page-view-edit {
+	display: block;
+}
+
+#adminmenu li ul.admin-menu-tree-page-tree a:hover .admin-menu-tree-page-view-edit:hover {
+	background-image: url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/ui-darkness/images/ui-icons_222222_256x240.png);
+}
+
+#adminmenu li ul.admin-menu-tree-page-tree a .admin-menu-tree-page-view-view-link {
+	display: none;
+}
+
+
+li.admin-menu-tree-page-tree_headline,
+li.admin-menu-tree-page-filter
+ {
+	text-transform: uppercase;
+	color: #666;
+	font-size: 9px;
+	margin: 0 0 0 0 !important;
+	padding-left: 6px !important;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+
+.wp-has-current-submenu li.admin-menu-tree-page-tree_headline,
+.wp-has-current-submenu li.admin-menu-tree-page-filter
+ {
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+/* child-pages */
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul {
+	border-bottom: none;
+}
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li a,
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li a:hover
+ {
+	padding-left: 27px;
+	padding-right: 8px;
+	background-position: 15px 1px !important;
+	font-weight: normal;
+	color: #21759B;
+}
+
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li li a,
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li li a:hover
+ {
+	padding-left: 37px;
+	padding-right: 8px;
+	background-position: 25px 1px !important;
+	font-weight: normal;
+	color: #21759B;
+}
+
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li li li a,
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li li li a:hover
+ {
+	padding-left: 47px;
+	padding-right: 8px;
+	background-position: 35px 1px !important;
+	font-weight: normal;
+	color: #21759B;
+}
+
+
+/* make them bold too */
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li.current a,
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li.current a:hover
+ {
+	font-weight: bold;
+	color: black;
+}
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li.current li a,
+#adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li ul li.current li a:hover
+ {
+	font-weight: normal;
+}
+
+.admin-menu-tree-page-view-popup {
+	position: absolute;
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 8px 8px 8px 15px;
+}
+
+#adminmenu li.wp-has-current-submenu .wp-submenu .admin-menu-tree-page-view-popup ul li a,
+#adminmenu li.wp-has-current-submenu .admin-menu-tree-page-view-popup ul li a,
+#adminmenu .wp-submenu .admin-menu-tree-page-view-popup ul li a
+{
+	border: none !important;
+	background-image: none !important;
+}
+#adminmenu .admin-menu-tree-page-view-popup ul {
+	border: none !important;
+}
+
+.admin-menu-tree-page-view-popup-arrow {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	/* background: transparent url(arrow-left.gif) no-repeat top left; */
+	background: transparent url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/ui-darkness/images/ui-icons_222222_256x240.png) no-repeat -16px -126px;
+	top: 3px;
+	left: 3px;
+}
+.admin-menu-tree-page-view-popup-page {
+	display: none;
+}
+.admin-menu-tree-page-view-popup li {
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.admin-menu-tree-page-view-status {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+    background-color: #F85B11;
+    border: medium none;
+    color: white;
+    display: inline;
+    font-size: 0.8em;
+    margin-right: 0.75ex;
+    padding: 1px 4px;
+}
+.admin-menu-tree-page-view-status-password {
+	background-color: #25b61a;
+}
+.admin-menu-tree-page-view-status-private {
+	background-color: #25b61a;
+}
+.admin-menu-tree-page-view-status-pending,
+.admin-menu-tree-page-view-status-future
+{
+	background-color: #0069e0;
+}
+
+.admin-menu-tree-page-view-protected {
+	width: 13px;
+	height: 11px;
+	float: left;
+	background: url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/ui-darkness/images/ui-icons_cccccc_256x240.png) no-repeat -194px -98px;
+}
+
+.admin-menu-tree-page-filter {
+	position: relative;
+}
+.admin-menu-tree-page-filter input {
+	width: 125px;
+	font-size: 10px;
+	line-height: 1em;
+	padding: 2px;
+}
+
+.admin-menu-tree-page-filter-reset {
+	display: none;
+	width: 16px;
+	height: 16px;
+	background: transparent url(https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/ui-darkness/images/ui-icons_cccccc_256x240.png) no-repeat -32px -194px;	
+	position: absolute;
+	top: 5px;
+	right: 15px;
+}
+.admin-menu-tree-page-filter-reset:hover {
+	background-image:url(https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/ui-darkness/images/ui-icons_222222_256x240.png)
+}
+.admin-menu-tree-page-filter label {
+	color: #BBBBBB;
+    left: 13px;
+    position: absolute;
+    top: 5px;
+    cursor: text;
+}
+
+ul.admin-menu-tree-page-tree .highlight {
+	background-color: #fff879;
+	color: #21759B;
+}
+
